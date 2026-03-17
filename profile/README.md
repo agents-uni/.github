@@ -1,4 +1,7 @@
 <p align="center">
+  <img src="../assets/logo.png" alt="Agents Uni" width="120" />
+</p>
+<p align="center">
   <strong>Agents Uni</strong><br/>
   <em>AI Agent 组织协议层</em>
 </p>
