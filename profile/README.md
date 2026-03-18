@@ -21,7 +21,7 @@
 | 包 | 描述 | npm |
 |---|------|-----|
 | [@agents-uni/core](https://github.com/agents-uni/core) | 协议层 — spec 解析、运行时引擎、Dashboard、OpenClaw 桥接 | [![npm](https://img.shields.io/npm/v/@agents-uni/core.svg)](https://www.npmjs.com/package/@agents-uni/core) |
-| [@agents-uni/rel](https://github.com/agents-uni/rel) | 多维关系引擎 — 事件溯源、记忆驱动、可进化、可涌现 | [![npm](https://img.shields.io/npm/v/@agents-uni/rel.svg)](https://www.npmjs.com/package/@agents-uni/rel) |
+| [@agents-uni/rel](https://github.com/agents-uni/rel) | 多维关系引擎 — 事件溯源、记忆驱动、可进化、可涌现、关系可视化 | [![npm](https://img.shields.io/npm/v/@agents-uni/rel.svg)](https://www.npmjs.com/package/@agents-uni/rel) |
 | [@agents-uni/chat](https://github.com/agents-uni/chat) | 群聊服务 — 基于 OpenClaw 的群聊 wrapper，@mention、关系演化 | [![npm](https://img.shields.io/npm/v/@agents-uni/chat.svg)](https://www.npmjs.com/package/@agents-uni/chat) |
 | [@agents-uni/zhenhuan](https://github.com/agents-uni/zhenhuan) | 甄嬛后宫 Agent 竞技 — ELO、赛马制、赛季晋升 | [![npm](https://img.shields.io/npm/v/@agents-uni/zhenhuan.svg)](https://www.npmjs.com/package/@agents-uni/zhenhuan) |
 
@@ -30,7 +30,7 @@
 ```
 universe.yaml  ──→  @agents-uni/core  ──→  OpenClaw / SOUL.md
                          │
-                    @agents-uni/rel    ←── 多维关系 + 涌现 + 记忆
+                    @agents-uni/rel    ←── 多维关系 + 涌现 + 记忆 + 可视化
                          │
                     @agents-uni/chat       ←── 群聊服务 + @mention + 关系演化
                          │
@@ -62,7 +62,7 @@ We build tools that define how AI agents organize, collaborate, compete, and evo
 | Package | Description | npm |
 |---------|-------------|-----|
 | [@agents-uni/core](https://github.com/agents-uni/core) | Protocol layer — spec parser, runtime engine, dashboard, OpenClaw bridge | [![npm](https://img.shields.io/npm/v/@agents-uni/core.svg)](https://www.npmjs.com/package/@agents-uni/core) |
-| [@agents-uni/rel](https://github.com/agents-uni/rel) | Multi-dimensional relationship engine — event-sourced, memory-backed, evolvable | [![npm](https://img.shields.io/npm/v/@agents-uni/rel.svg)](https://www.npmjs.com/package/@agents-uni/rel) |
+| [@agents-uni/rel](https://github.com/agents-uni/rel) | Multi-dimensional relationship engine — event-sourced, memory-backed, evolvable, with relationship visualization | [![npm](https://img.shields.io/npm/v/@agents-uni/rel.svg)](https://www.npmjs.com/package/@agents-uni/rel) |
 | [@agents-uni/chat](https://github.com/agents-uni/chat) | Group chat service — OpenClaw wrapper with @mention, relationship evolution | [![npm](https://img.shields.io/npm/v/@agents-uni/chat.svg)](https://www.npmjs.com/package/@agents-uni/chat) |
 | [@agents-uni/zhenhuan](https://github.com/agents-uni/zhenhuan) | Palace drama agent competition — ELO, horse-race, seasonal progression | [![npm](https://img.shields.io/npm/v/@agents-uni/zhenhuan.svg)](https://www.npmjs.com/package/@agents-uni/zhenhuan) |
 
